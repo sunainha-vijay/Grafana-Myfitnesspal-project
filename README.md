@@ -2,6 +2,7 @@
  A simple website that accepts CSV exports and renders nice visual representations using Grafana would be much better for users.
  
 Problem Statement:
+https://ccextractor.org/public/gsoc/takehome/#export-data-from-myfitnesspal-to-grafana
 Language: Any
 Must work in: Linux (anything server side)
 MyFitnessPal is a mobile app used to track food & energy intake, exercise, and more. It supports CSV data export (e.g. through email) to facilitate archival, but this style is a bit antiquated for manual viewing.
@@ -22,4 +23,7 @@ Python Libraries used:
 How does Application Work?
 At the Home screen, User will have an option for uploading CSV file to the Application. After file uploading process ,it gets load into SQL table and then it get redirected to an Grafana Dashboard Page.
 
+#things to do
 How to Setup the Application?
+screenshorts of the website and dashboards
+
