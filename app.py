@@ -18,10 +18,9 @@ def index():
     if request.method == "POST":
         user_csv_file = request.files["file"]
         
-         # enter your password and database names here and you can also replace with your table name from grafanatesting
-        engine = create_engine('mysql://root:sunu(7*8)@localhost: 3306/grafana')
+        engine = create_engine('mysql://root:sunu(7*8)@localhost/grafanatesting')
 
-        df = pd.read_csv(user_csv_file,error_bad_lines=False, dtype=object)
+        df = pd.read_csv(user_csv_file, dtype=object)
         column_list = list(df)
 
         df['Date']=pd.to_datetime(df['Date'])
@@ -31,10 +30,10 @@ def index():
             
             df[j]=pd.to_numeric(df[j], errors ='coerce',downcast ='integer')
 
-        df.to_sql('food_demos',con=engine,if_exists='replace') # Replace Table_name with your sql table name
+        df.to_sql('new_food_demos',con=engine,if_exists='replace') # Replace Table_name with your sql table name
         
         return redirect(url_for("grafanadashboard"))    
-    return render_template('layouts/default.html',content=render_template( 'pages/index.html') )
+    return render_template('layouts/defaults.html',content=render_template( 'pages/index.html') )
 
 @app.route("/grafanadashboard")
 def grafanadashboard():
@@ -46,3 +45,9 @@ def grafanadashboard():
 if __name__ == "__main__":
     
     app.run(debug=True)
+
+
+
+
+
+
