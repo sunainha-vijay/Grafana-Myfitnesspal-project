@@ -23,7 +23,10 @@ Python Libraries used:
 How does Application Work?
 At the Home screen, User will have an option for uploading CSV file to the Application. After file uploading process ,it gets load into SQL table and then it get redirected to an Grafana Dashboard Page.
 
-#things to do
-How to Setup the Application?
 screenshorts of the website and dashboards
+![Image Alt text](images/website2.PNG "website"))
+![Image Alt text](images/fooddash1.PNG "dashboard1"))
+![Image Alt text](images/fooddash2.PNG "dashboard2"))
+![Image Alt text](images/fooddash3.PNG "dashboard3"))
+![Image Alt text](images/fooddash4.PNG "dashboard4"))
 
