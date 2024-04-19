@@ -31,4 +31,4 @@ screenshorts of the website and dashboards
 ![Image Alt text](images/fooddash4.PNG "dashboard4"))
 
 I have written a blog on how to implement this project
-https://medium.com/@sunainha7/integrating-myfitnesspal-data-with-grafana-a-technical-guide-ab035e86d389 
+link to blog: https://medium.com/@sunainha7/integrating-myfitnesspal-data-with-grafana-a-technical-guide-ab035e86d389 
