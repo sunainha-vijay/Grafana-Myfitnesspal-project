@@ -23,6 +23,9 @@ Python Libraries used:
 How does Application Work?
 At the Home screen, User will have an option for uploading CSV file to the Application. After file uploading process ,it gets load into SQL table and then it get redirected to an Grafana Dashboard Page.
 
+![image](https://github.com/sunainha-vijay/Grafana-Myfitnesspal-project/assets/113001688/31359e49-ca64-433d-8243-9f3ab3a21ffc)
+
+
 screenshorts of the website and dashboards
 ![Image Alt text](images/website2.PNG "website"))
 ![Image Alt text](images/fooddash1.PNG "dashboard1"))
